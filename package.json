@@ -1,0 +1,29 @@
+{
+    "name": "staticwebsite",
+    "version": "1.0.0",
+    "description": "Sample static website",
+    "main": "src/js/index.js",
+    "scripts": {
+        "format": "prettier --write src/js/**/*.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/public-apis-demos/staticwebsite.git"
+    },
+    "author": "srinivas",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/public-apis-demos/staticwebsite/issues"
+    },
+    "homepage": "https://github.com/public-apis-demos/staticwebsite#readme",
+    "dependencies": {
+        "husky": "^2.3.0",
+        "prettier": "^1.17.1",
+        "pretty-quick": "^1.11.0"
+    },
+    "husky": {
+        "hooks": {
+            "pre-commit": "pretty-quick --staged"
+        }
+    }
+}
