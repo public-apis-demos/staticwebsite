@@ -1,12 +1,3 @@
-console.log('hello')
+import sum from "./add";
 
-function hi(params) {
-    return 'hii'
-}
-
-//
-var x = 'sing'
-
-function hello() {
-    return 'sss'
-}
+console.log(sum());

@@ -4,7 +4,8 @@
     "description": "Sample static website",
     "main": "src/js/index.js",
     "scripts": {
-        "format": "prettier --write src/js/**/*.js"
+        "format": "prettier --write src/js/**/*.js",
+        "test": "jest"
     },
     "repository": {
         "type": "git",
@@ -25,5 +26,8 @@
         "hooks": {
             "pre-commit": "pretty-quick --staged"
         }
+    },
+    "devDependencies": {
+        "jest": "^24.8.0"
     }
 }
